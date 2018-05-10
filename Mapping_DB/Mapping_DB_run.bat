@@ -1,0 +1,3 @@
+%~d0
+ cd %~dp0
+ java -Xms256M -Xmx1024M -cp ../lib/systemRoutines.jar;../lib/userRoutines.jar;.;mapping_db_0_1.jar;../lib/activation.jar;../lib/advancedPersistentLookupLib-1.0.jar;../lib/commons-collections-3.2.jar;../lib/dom4j-1.6.1.jar;../lib/jboss-serialization.jar;../lib/jxl.jar;../lib/log4j-1.2.15.jar;../lib/mail-1.4.jar;../lib/mysql-connector-java-5.1.30-bin.jar;../lib/ojdbc6.jar;../lib/talend-oracle-timestamptz.jar;../lib/talendcsv.jar;../lib/talend_file_enhanced_20070724.jar;../lib/tns.jar;../lib/trove.jar; projectname.mapping_db_0_1.Mapping_DB --context=Default %* 
